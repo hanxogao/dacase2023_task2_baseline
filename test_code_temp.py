@@ -23,5 +23,6 @@ with open("baseline.yaml", "w", encoding='utf-8') as fout:
     param = yaml.load(fout, Loader = yaml.FullLoader)
 print(param)
 print("1")
+print("2")
 
    
