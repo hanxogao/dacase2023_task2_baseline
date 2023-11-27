@@ -24,5 +24,6 @@ with open("baseline.yaml", "w", encoding='utf-8') as fout:
 print(param)
 print("1")
 print("2")
+print("3")
 
    
