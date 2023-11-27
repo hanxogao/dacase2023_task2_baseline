@@ -22,5 +22,6 @@ with open("baseline.yaml", "w", encoding='utf-8') as fout:
     yaml.dump(data = apiData, stream = fout, allow_unicode = True)
     param = yaml.load(fout, Loader = yaml.FullLoader)
 print(param)
+print("1")
 
    
